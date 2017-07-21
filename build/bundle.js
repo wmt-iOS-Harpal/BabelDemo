@@ -1,9 +1,24 @@
 "use strict";
 
-var _dateTime = require("./dateTime");
+var _lib = require("./lib");
 
-var _dateTime2 = _interopRequireDefault(_dateTime);
+var _lib2 = _interopRequireDefault(_lib);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-alert(_dateTime2.default.getCurrentDate());
+alert((0, _lib2.default)(10)); //
+// let userInfo = {
+//   "name" : "Harpal Singh Jadeja",
+//   "age" : 25,
+//   "emailId" : "harpal@gmail.comm"
+// }
+//
+// let {
+//   name, age
+// } = userInfo;
+//
+// let myFunction = (message)=>{
+//   alert(message);
+// };
+//
+// setTimeout(myFunction(age),2000);
